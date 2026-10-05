@@ -1,6 +1,9 @@
 services:
   drupal:
-    image: drupal:11-apache
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: council-drupal:11
     container_name: council-drupal
     ports:
       - "8080:80"
