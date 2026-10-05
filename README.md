@@ -266,10 +266,10 @@ The environment contains:
 ### Drupal
 
 ```text
-Image: drupal:11-apache
+Base image: drupal:11-apache
+Custom image: council-drupal:11
 Container: council-drupal
 Port: 8080 -> 80
-```
 
 ### Database
 
