@@ -1,0 +1,87 @@
+uuid: beeab5c9-43a2-48a8-93ab-c8e748402c8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.council_service.field_contact_information
+    - field.field.node.council_service.field_eligibility_information
+    - field.field.node.council_service.field_service_category
+    - field.field.node.council_service.field_service_description
+    - field.field.node.council_service.field_service_location
+    - field.field.node.council_service.field_service_summary
+    - field.field.node.council_service.field_service_url
+    - node.type.council_service
+  module:
+    - link
+    - options
+    - text
+    - user
+id: node.council_service.default
+targetEntityType: node
+bundle: council_service
+mode: default
+content:
+  field_contact_information:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+      link_rel: canonical
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_eligibility_information:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_service_category:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_service_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_service_location:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+      link_rel: canonical
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_service_summary:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_service_url:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

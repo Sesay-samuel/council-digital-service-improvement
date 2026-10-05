@@ -1,0 +1,24 @@
+uuid: 8349fe3d-ca6d-4379-9cb8-57608f1f73ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_service_description
+    - filter.format.basic_html
+    - node.type.council_service
+  module:
+    - text
+id: node.council_service.field_service_description
+field_name: field_service_description
+entity_type: node
+bundle: council_service
+label: 'service description'
+description: 'Provide the full service information using clear, accessible and user-focused language. Include what the service provides, who it is for and what the user needs to do.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

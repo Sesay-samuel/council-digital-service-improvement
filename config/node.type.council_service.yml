@@ -1,0 +1,18 @@
+uuid: adb19b64-6af7-4905-bbd1-22217c93c14c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Council Service'
+type: council_service
+description: 'Structured content for council services and online customer journeys, designed to provide clear, accessible and user-focused information.'
+help: "Use clear, plain English and focus on the user's task. Service information should be accurate, accessible and written so users can quickly understand what they need to do."
+new_revision: true
+preview_mode: 1
+display_submitted: false

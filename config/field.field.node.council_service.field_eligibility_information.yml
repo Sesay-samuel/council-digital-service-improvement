@@ -1,0 +1,24 @@
+uuid: c8fc7051-c5a3-4886-ae22-56f6d04b5938
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eligibility_information
+    - filter.format.basic_html
+    - node.type.council_service
+  module:
+    - text
+id: node.council_service.field_eligibility_information
+field_name: field_eligibility_information
+entity_type: node
+bundle: council_service
+label: 'Eligibility information'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

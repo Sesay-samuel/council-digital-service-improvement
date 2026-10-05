@@ -1,0 +1,23 @@
+uuid: c83b7ce0-61f4-49f6-8ea6-0eac2ac8b2db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_service_url
+    - node.type.council_service
+  module:
+    - link
+id: node.council_service.field_service_url
+field_name: field_service_url
+entity_type: node
+bundle: council_service
+label: 'Service URL'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

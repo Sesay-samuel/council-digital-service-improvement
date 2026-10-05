@@ -1,0 +1,18 @@
+uuid: 1b59cfae-f1e6-426e-845f-5eb56a606265
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.council_service
+id: node.council_service.title
+field_name: title
+entity_type: node
+bundle: council_service
+label: 'Service title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: f3fdae0c-90fb-499e-9814-1cea0e610f48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_service_summary
+    - node.type.council_service
+id: node.council_service.field_service_summary
+field_name: field_service_summary
+entity_type: node
+bundle: council_service
+label: 'Service summary'
+description: "Write a short, plain-English summary explaining what this service does and who it is for. Keep it clear, concise and focused on the user's need."
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,19 @@
+uuid: 4416ff7a-de01-451b-8e8b-8a7ab0f54858
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_service_location
+    - node.type.council_service
+id: node.council_service.field_service_location
+field_name: field_service_location
+entity_type: node
+bundle: council_service
+label: 'Service location'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 81fe276e-9544-4ab8-9571-5761e10d2aa0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_service_category
+    - node.type.council_service
+  module:
+    - options
+id: node.council_service.field_service_category
+field_name: field_service_category
+entity_type: node
+bundle: council_service
+label: 'Service category'
+description: 'Select the category that best describes this council service.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
